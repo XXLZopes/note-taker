@@ -4,6 +4,8 @@ const path = require('path');
 const app = express();
 const PORT = 3001;
 
+app.use(express.static('public'));
+
 const notes = require('./db/db.json') 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
