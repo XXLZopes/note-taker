@@ -14,7 +14,6 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/index.html"));
-  console.log(process.env.PORT);
 });
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/notes.html"));
@@ -48,6 +47,7 @@ app.delete("/api/notes/:id", (req, res) => {
 
   console.log(updatedNotes);
   console.log("deleted");
+  console.log(process.env.PORT);
 });
 
 app.post("/api/notes", (req, res) => {
