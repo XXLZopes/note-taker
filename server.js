@@ -23,6 +23,7 @@ app.get('/api/notes', (req, res) => {
 });
 
 app.post('/api/notes', (req, res) => {
+    req.body.id = notes.length.toString();
     const newNotes = req.body;
 
     notes.push(newNotes);
