@@ -3,6 +3,7 @@ const path = require("path");
 const { findById } = require("./lib/Notes");
 const app = express();
 const PORT = 3001;
+const port = process.env.PORT || 3001;
 const notes = require("./db/db.json");
 const { response } = require("express");
 
