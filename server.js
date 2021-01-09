@@ -47,7 +47,6 @@ app.delete("/api/notes/:id", (req, res) => {
 
   console.log(updatedNotes);
   console.log("deleted");
-  console.log(process.env.PORT);
 });
 
 app.post("/api/notes", (req, res) => {
