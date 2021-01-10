@@ -11,8 +11,8 @@ N/A
 ## Usage
 This project is used to take notes 
 
-![](./image.png)
-![](./image1.png)
+![](./images/image.png)
+![](./images/image1.png)
 
 ## Contact
 [Github](https://github.com/XXLZopes)
