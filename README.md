@@ -1,9 +1,9 @@
 
 # note-taker
 
-  [Deployed Application(Heroku)](https://warm-meadow-81006.herokuapp.com/)
+  [Deployed Application](https://warm-meadow-81006.herokuapp.com/)
   ###
-  [Deployed Application (Github)](https://warm-meadow-81006.herokuapp.com/)
+  [Github Repository](https://github.com/XXLZopes/note-taker)
 ## Description 
 This application allows its user to save and delete notes to and from a server.
 ## Installation
